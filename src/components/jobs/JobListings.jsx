@@ -1,7 +1,7 @@
 import JobItems from "./JobItems";
-import { jobListings } from "../../constant/jobs";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-router";
+import { jobListings } from "../../constant/jobs/lists";
 const JobListings = () => {
   return (
     <section>
