@@ -1,5 +1,6 @@
 export const jobListings = [
   {
+    id: "J1A9SE",
     userId: 1,
     title: "Software Engineer",
     description:
@@ -17,6 +18,7 @@ export const jobListings = [
     benefits: "Healthcare, 401(k) matching, flexible work hours",
   },
   {
+    id: "J2M7MS",
     userId: 2,
     title: "Marketing Specialist",
     description:
@@ -34,6 +36,7 @@ export const jobListings = [
     benefits: "Health and dental insurance, paid time off, remote work options",
   },
   {
+    id: "J3W8WD",
     userId: 3,
     title: "Web Developer",
     description:
@@ -52,6 +55,7 @@ export const jobListings = [
       "Competitive salary, professional development opportunities, friendly work environment",
   },
   {
+    id: "J4D7DA",
     userId: 1,
     title: "Data Analyst",
     description:
@@ -69,6 +73,7 @@ export const jobListings = [
     benefits: "Health benefits, remote work options, casual dress code",
   },
   {
+    id: "J5G7GD",
     userId: 2,
     title: "Graphic Designer",
     description:
@@ -87,6 +92,7 @@ export const jobListings = [
       "Flexible work hours, creative work environment, opportunities for growth",
   },
   {
+    id: "J6D9DS",
     userId: 1,
     title: "Data Scientist",
     description:

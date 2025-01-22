@@ -1,5 +1,7 @@
+import { Link } from "react-router";
+
 /* eslint-disable react/prop-types */
-const JobItems = ({ title, description, salary, tags, city, state }) => {
+const JobItems = ({ title, description, salary, tags, city, state, id }) => {
   return (
     <div className="rounded-lg shadow-md bg-white">
       <div className="p-4">
@@ -24,12 +26,12 @@ const JobItems = ({ title, description, salary, tags, city, state }) => {
             ))}{" "}
           </li>
         </ul>
-        <a
-          href="details.html"
+        <Link
+          to={`/details/${id}`}
           className="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200"
         >
           Details
-        </a>
+        </Link>
       </div>
     </div>
   );

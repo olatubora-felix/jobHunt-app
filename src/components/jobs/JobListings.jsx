@@ -1,5 +1,7 @@
 import JobItems from "./JobItems";
 import { jobListings } from "../../constant/jobs";
+import { FaArrowAltCircleRight } from "react-icons/fa";
+import { Link } from "react-router";
 const JobListings = () => {
   return (
     <section>
@@ -8,15 +10,20 @@ const JobListings = () => {
           Recent Jobs
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-          {jobListings?.map((job) => (
-            <JobItems key={job.id} {...job} />
+          {jobListings?.map((job, index) => (
+            <JobItems key={`${job.id}-${index}`} {...job} />
           ))}
         </div>
       </div>
-      <a href="listings.html" className="block text-xl text-center">
-        <i className="fa fa-arrow-alt-circle-right"></i>
-        Show All Jobs
-      </a>
+      <div className="flex justify-center items-center">
+        <Link
+          to="jobs"
+          className=" text-xl text-center flex items-center gap-2"
+        >
+          <FaArrowAltCircleRight />
+          Show All Jobs
+        </Link>
+      </div>
     </section>
   );
 };
