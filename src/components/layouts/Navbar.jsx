@@ -21,13 +21,13 @@ const Navbar = () => {
               {route.name}
             </NavLink>
           ))}{" "}
-          <NavLink
+          <Link
             to="/app/jobs/create-job"
             className="bg-yellow-500 flex items-center gap-2 hover:bg-yellow-600 text-black px-4 py-2 rounded hover:shadow-md transition duration-300"
           >
             <FaEdit />
             Post a Job
-          </NavLink>
+          </Link>
         </nav>
       </div>
     </header>

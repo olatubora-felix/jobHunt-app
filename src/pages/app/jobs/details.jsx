@@ -1,6 +1,7 @@
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { Link, useParams } from "react-router";
-import { jobListings } from "../../../constant/jobs";
+import { jobListings } from "../../../constant/jobs/lists";
+
 const JobDetailsPage = () => {
   const params = useParams();
   console.log(params);
