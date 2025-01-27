@@ -12,6 +12,7 @@ export const SearchJob = () => {
           label={""}
           key={input.name}
           {...input}
+          type={"search"}
         />
       ))}
       <Button variant={"contain"} className="flex items-center gap-2">

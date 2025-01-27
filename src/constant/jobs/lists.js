@@ -16,6 +16,7 @@ export const jobListings = [
     requirements:
       "Bachelors degree in Computer Science or related field, 3+ years of software development experience",
     benefits: "Healthcare, 401(k) matching, flexible work hours",
+    newPost: true,
   },
   {
     id: "J2M7MS",
@@ -34,6 +35,7 @@ export const jobListings = [
     requirements:
       "Bachelors degree in Marketing or related field, experience in digital marketing",
     benefits: "Health and dental insurance, paid time off, remote work options",
+    newPost: false,
   },
   {
     id: "J3W8WD",
@@ -53,6 +55,7 @@ export const jobListings = [
       "Bachelors degree in Computer Science or related field, proficiency in HTML, CSS, JavaScript",
     benefits:
       "Competitive salary, professional development opportunities, friendly work environment",
+    newPost: true,
   },
   {
     id: "J4D7DA",
@@ -71,6 +74,7 @@ export const jobListings = [
     requirements:
       "Bachelors degree in Data Science or related field, strong analytical skills",
     benefits: "Health benefits, remote work options, casual dress code",
+    newPost: false,
   },
   {
     id: "J5G7GD",
@@ -90,6 +94,7 @@ export const jobListings = [
       "Bachelors degree in Graphic Design or related field, proficiency in Adobe Creative Suite",
     benefits:
       "Flexible work hours, creative work environment, opportunities for growth",
+    newPost: false,
   },
   {
     id: "J6D9DS",
@@ -109,5 +114,6 @@ export const jobListings = [
       "Masters or Ph.D. in Data Science or related field, experience with machine learning algorithms",
     benefits:
       "Competitive salary, remote work options, professional development",
+    newPost: false,
   },
 ];

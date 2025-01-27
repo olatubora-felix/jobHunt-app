@@ -3,7 +3,7 @@ import { Link } from "react-router";
 /* eslint-disable react/prop-types */
 const JobItems = ({ title, description, salary, tags, city, state, id }) => {
   return (
-    <div className="rounded-lg shadow-md bg-white">
+    <div className="rounded-lg shadow-md bg-white  space-y-4">
       <div className="p-4">
         <h2 className="text-xl font-semibold">{title}</h2>
         <p className="text-gray-700 text-lg mt-2">{description}</p>
