@@ -6,6 +6,7 @@ import RegisterPage from "./pages/auth/register";
 import CreateJobPage from "./pages/app/jobs/create-job";
 import ProtectedPage from "./routes/protectedRoute";
 import JobDetailsPage from "./pages/app/jobs/details";
+import JobsPage from "./pages/app/jobs";
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,10 +20,12 @@ const App = () => {
             <Route path="register" element={<RegisterPage />} />
           </Route>
           {/* Show Job Details Page */}
-          <Route path="/details/:id" element={<JobDetailsPage />} />
+          <Route path="details/:id" element={<JobDetailsPage />} />
+
           {/* Page that requires login access/protect routes */}
           <Route path="app" element={<ProtectedPage />}>
             <Route path="jobs">
+              <Route index element={<JobsPage />} />
               <Route path="create-job" element={<CreateJobPage />} />
             </Route>
           </Route>
